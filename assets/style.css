@@ -1,0 +1,35 @@
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    width: 20%;
+}
+
+#aboutMe, #connect {
+    color: #4aaaa5;
+}
+
+p {
+    color: #777777;
+}
+
+img {
+    width: 20%;
+    height: 30%;
+}
+
+#mainSectionContent {
+    float: left;
+    width: 650px;
+}
+
+#sidebarContent {
+    float: right;
+    width: 270px;
+}
+
+#entireContent {
+    width: 960px;
+}
