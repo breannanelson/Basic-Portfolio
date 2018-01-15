@@ -16,17 +16,23 @@ p {
 }
 
 img {
+    float: left;
     width: 20%;
     height: 30%;
+    padding-right: 20px;
 }
 
 #mainSectionContent {
+
     float: left;
+    background-color: #ffffff;
+    padding: 30px 20px 30px 30px;
     width: 650px;
 }
 
 #sidebarContent {
     float: right;
+    background-color: #ffffff;
     width: 270px;
 }
 
