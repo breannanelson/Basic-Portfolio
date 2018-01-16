@@ -1,6 +1,8 @@
 .header {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: gray;
     overflow: auto;
+    text-align: center;
 }
 
 #name {
@@ -49,14 +51,18 @@ img {
 }
 
 #entireContent {
-    width: 960px;
+    width: 1000px;
 }
 
 #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
     background-color: #666666;
     color: white;
-    border-width: 30px;
-    border-color: #4aaaa5;
+    text-align: center;
+    border-top: 9px solid #4aaaa5;
     padding: 15px;
 }
 
