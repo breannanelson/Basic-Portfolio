@@ -1,4 +1,9 @@
+.header {
+
+}
+
 #name {
+    float: left;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
@@ -31,7 +36,10 @@ img {
 }
 
 #sidebarContent {
-    float: right;
+    float: left;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    text-align: center;
     background-color: #ffffff;
     width: 270px;
 }
