@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/style.css">
 </head>
 <body background = "./assets/images/circles-light.png">
     <!-- <div class="clearfix"> -->
     
-    <div class="header">
+    <!-- <div class="header">
         <h1 class="name">Breanna Nelson</h1>
         <a href="index.html" class="nav-link">About</a> |
         <a href="portfolio.html" class="nav-link">Portfolio</a> |
         <a href="contact.html" class="nav-link">Contact</a>
-    </div>
+    </div> -->
+
+    <nav>
+        <div class="header">
+            <h1 class="name">Breanna Nelson</h1>
+            <p class="navlinks">
+                    <a href="index.html" class="nav-link">About</a> |
+                    <a href="portfolio.html" class="nav-link">Portfolio</a> |
+                    <a href="contact.html" class="nav-link">Contact</a> 
+            </p>
+        </div>
+    </nav>
 
     <div id="entireContent">
 
@@ -30,13 +42,15 @@
         <div id="sidebarContent">
             <h2 id="connect">Connect with Me</h2>
             <hr>
+            <div class="links">
             <a href="https://github.com/breannanelson" target="_blank"><img src="./assets/images/gitHub.png" alt="GitHub"></a>
             <a href="https://www.linkedin.com/in/breanna-nelson-222860124/" target="_blank"><img src="./assets/images/linkedIn.png" alt="LinkedIn"></a>
             <a href="https://stackoverflow.com/users/9165072/breanna-nelson?tab=profile" target="_blank"><img src="./assets/images/stackOverflow.png" alt="StackOverflow"></a>
+            </div>
         </div>
     </div>
 
-    <p id="footer">© Copyright 2016 Breanna Nelson</p>
+    <footer id="footer">© Copyright 2016 Breanna Nelson</footer>
     <!-- </div> -->
 </body>
 </html>
