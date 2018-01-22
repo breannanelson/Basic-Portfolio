@@ -26,6 +26,10 @@
     width: 20%;
 } */
 
+body {
+    background: url('./images/circles-light.png');
+}
+
 nav {
     width: 100%;
     background-color: #ffffff;
@@ -34,7 +38,7 @@ nav {
 }
 
 .header {
-    position: fixed;
+    position: absolute;
     left: 120px;
     width: 1030px;
     height: 100px;
@@ -43,7 +47,7 @@ nav {
 
 .navlinks {
     float: right;
-    padding-top: 28px;
+    padding-top: 45px;
 }
 
 .name {
@@ -54,6 +58,7 @@ nav {
     padding-top: 35px;
     background-color: #4aaaa5;
     color: white;
+    font-weight: bold;
     text-align: center;
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -81,9 +86,10 @@ a.nav-link:active
    text-decoration: none;
 }
 
-#aboutMe, #connect {
+.aboutMe, .connect, .contact, .portfolio {
     color: #4aaaa5;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -92,69 +98,114 @@ hr {
     margin-bottom: 20px;
 }
 
-p, hr, a {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+.portPhoto {
+    float: left;
+    padding-right: 15px;
+    width: 30%;
+    height: 40%;
 }
 
-img {
+p, hr, a, form {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 20px;
+}
+
+.linkPhoto {
     float: left;
     width: 20%;
     height: 30%;
     padding-right: 20px;
 }
 
-#mainSectionContent {
+.mainSectionContent {
 
     float: left;
     background-color: #ffffff;
     padding: 15px 30px 30px 30px;
-    width: 650px;
+    width: 640px;
 }
 
-#sidebarContent {
+.sidebarContent {
     float: right;
-    margin: 0px 10px 0px 10px;
-    padding: 0 10px 30px 10px;
+    margin: 0px 10px 0px 20px;
+    padding: 15px 10px 30px 10px;
     text-align: center;
     background-color: #ffffff;
     width: 270px;
 }
 
 .links {
-    padding-left: 40px;
+    padding-left: 45px;
+    width: 95%;
 }
 
-#entireContent {
+#stackLink {
+    width: 18%;
+}
+
+.entireContent {
     width: 1030px;
     position: absolute;
     left: 120px;
-    top: 120px;
+    top: 140px;
 }
 
-#footer {
-    position: absolute;
-    bottom: 0;
+.footer {
     width: 100%;
-    height: 7%;
+    height: 30px;
     background-color: #666666;
     color: white;
-    font-size: 10px;
+    font-size: 11px;
     text-align: center;
     border-top: 9px solid #4aaaa5;
-    padding-top: 2.5%;
+    padding: 35px 0 19px 0;
 }
 
-/* .clearfix::after {
+textarea {
+    height: 200px;
+    width: 100%;
+    resize: vertical;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    background-color: #4aaaa5;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: lightseagreen;
+    color: white;
+}
+
+input, textarea {
+    padding: 10px 0 10px 8px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    width: 100vw;
+    height: 100vh;
     content: "";
     clear: both;
-    display: table;
+    display: block;
+}
+
+/* .creations {
+    margin-top: 10px;
+    float: left;
+    float: right;
 } */
 
-
-/* Form */
-form {
-    position: absolute;
-    top: 250px;
-    left: 150px;
-}
