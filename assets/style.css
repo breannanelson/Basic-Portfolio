@@ -126,6 +126,15 @@ p, hr, a, form {
     width: 640px;
 }
 
+.mainSectionContentPortfolio {
+
+    float: left;
+    background-color: #ffffff;
+    padding: 15px 30px 30px 30px;
+    width: 640px;
+    height: 770px;
+}
+
 .sidebarContent {
     float: right;
     margin: 0px 10px 0px 20px;
@@ -195,7 +204,23 @@ input, textarea {
     margin-bottom: 10px;
 }
 
-.clearfix::after {
+.clearfixAbout::after {
+    width: 100vw;
+    height: 75vh;
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.clearfixPortfolio::after {
+    width: 100vw;
+    height: 140vh;
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.clearfixContact::after {
     width: 100vw;
     height: 100vh;
     content: "";
@@ -203,9 +228,44 @@ input, textarea {
     display: block;
 }
 
-/* .creations {
-    margin-top: 10px;
-    float: left;
-    float: right;
-} */
+.creationsRight1, .overLapTextRight1 {
+    position: absolute;
+    left: 360px;
+}
+
+.creationsRight2, .overLapTextRight2 {
+    position: absolute;
+    top: 310px;
+    left: 360px;
+}
+
+.creationsLeft1, .overLapTextLeft1 {
+    position: absolute;
+}
+
+.creationsLeft2, .overLapTextLeft2 {
+    position: absolute;
+    top: 310px;
+}
+
+.creationsLeft3, .overLapTextLeft3 {
+    position: absolute;
+    top: 560px;
+}
+
+.creationsRight1, .creationsRight2, .creationsRight3, .creationsLeft1,  .creationsLeft2, .creationsLeft3 {
+    z-index: 1;
+}
+
+.overLapTextRight1, .overLapTextRight2, .overLapTextRight3, .overLapTextLeft1, .overLapTextLeft2, .overLapTextLeft3 {
+    width: 280px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 135px;
+    z-index: 2;
+}
 
