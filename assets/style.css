@@ -77,8 +77,9 @@ a.nav-link:visited
 }
 a.nav-link:hover
 {
-   color: #777777;
-   text-decoration: none;
+    color: white;
+    text-shadow: 0 0 20px #4aaaa5, 0 0 5px rgb(8, 80, 109);
+    text-decoration: none;
 }
 a.nav-link:active
 {
@@ -105,7 +106,7 @@ hr {
     height: 40%;
 }
 
-p, hr, a, form {
+p, hr, a, form, input, textarea {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 20px;
